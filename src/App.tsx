@@ -1,15 +1,11 @@
-
+import './global.css';
 
 function App() {
-  
-
   return (
     <>
-      <div>
-        <h1>app</h1>
-      </p>
+      <h1>app</h1>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
