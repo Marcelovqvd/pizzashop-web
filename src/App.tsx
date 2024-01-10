@@ -1,14 +1,12 @@
 import './global.css';
 
-import { Badge } from './components/ui/badge';
+import { RouterProvider } from 'react-router-dom';
+
+import { router } from './routes';
 
 function App() {
-  return (
-    <>
-      <h1>app</h1>
-      <Badge>Badge</Badge>
-    </>
-  );
+  return <h1>app</h1>;
+  return <RouterProvider router={router} />;
 }
 
 export default App;
