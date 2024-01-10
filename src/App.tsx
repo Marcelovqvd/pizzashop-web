@@ -1,9 +1,9 @@
-import './global.css';
+import './global.css'
 
-import { Helmet, HelmetProvider } from 'react-helmet-async';
-import { RouterProvider } from 'react-router-dom';
+import { Helmet, HelmetProvider } from 'react-helmet-async'
+import { RouterProvider } from 'react-router-dom'
 
-import { router } from './routes';
+import { router } from './routes'
 
 export function App() {
   return (
@@ -12,5 +12,5 @@ export function App() {
 
       <RouterProvider router={router} />
     </HelmetProvider>
-  );
+  )
 }
